@@ -37,13 +37,18 @@ public class OrderTest {
         orderSteps = new OrderStep();
         userSteps = new UserSteps();
         user = User.randomUser();
-        validIngredients.add("61c0c5a71d1f82001bdaaa73");
-        validIngredients.add("61c0c5a71d1f82001bdaaa6c");
-        invalidIngredients.add("11111111111111111111");
         userSteps.registerUser(user);
         LoginUser loginUser = new LoginUser(user.getEmail(), user.getPassword());
         Response loginResponse = userSteps.loginUser(loginUser).extract().response();
         accessToken = loginResponse.path("accessToken");
+        // Понял вроде так что надо взять список ингридиентов, а не встааить готовый
+        Response ingredientsResponse = RestAssured.given().get("https://stellarburgers.nomoreparties.site/api/ingredients");
+        ingredientsResponse.then().statusCode(SC_OK);
+        List<String> ingredientsIds = ingredientsResponse.jsonPath().getList("data._id");
+        validIngredients.clear();
+        validIngredients.add(ingredientsIds.get(0));
+        validIngredients.add(ingredientsIds.get(1));
+        invalidIngredients.add("11111111111111111111");
     }
 
     @AfterEach

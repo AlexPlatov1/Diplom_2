@@ -1,0 +1,8 @@
+Steps\OrderStep.class
+Order\Order.class
+User\LoginUser.class
+User\UserUpdate.class
+Steps\UserUpdateSteps.class
+Steps\UserSteps.class
+User\User.class
+URL\BaseTest.class

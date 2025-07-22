@@ -1,0 +1,4954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="UserUpdateTest" time="2.468" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Admin\Desktop\Student\qa_java\Diplom_2\target\test-classes;C:\Users\Admin\Desktop\Student\qa_java\Diplom_2\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-rest-assured\2.27.0\allure-rest-assured-2.27.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-attachments\2.27.0\allure-attachments-2.27.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Admin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Users\Admin\.jdks\openjdk-24.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire16523314645864712165\surefirebooter-20250715214105934_3.jar C:\Users\Admin\AppData\Local\Temp\surefire16523314645864712165 2025-07-15T21-41-05_754-jvmRun1 surefire-20250715214105934_1tmp surefire_0-20250715214105934_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\Desktop\Student\qa_java\Diplom_2\target\test-classes;C:\Users\Admin\Desktop\Student\qa_java\Diplom_2\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-rest-assured\2.27.0\allure-rest-assured-2.27.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-attachments\2.27.0\allure-attachments-2.27.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Admin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\Admin\.jdks\openjdk-24.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\Desktop\Student\qa_java\Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire16523314645864712165\surefirebooter-20250715214105934_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="Алексей"/>
+    <property name="stdout.encoding" value="Cp1251"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3.4.1"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="C:\Users\Admin\Desktop\Student\qa_java\Diplom_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Users\Admin\.jdks\openjdk-24.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.26_4\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.4.1\bin;;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Mozilla Firefox;C:\Users\Admin\Documents\allure-commandline-2.34.0\allure-2.34.0\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="updateNameWithoutAuth_ShouldFail" classname="UserUpdateTest" time="1.173">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J",
+    "name": "h46OO88l2p"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+ETag: W/"16f-g6XTFVGxkSzLa4wUUD2SDrvUZvI"
+
+{
+    "success": true,
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "77ff40c96e3b1c2c824a5d6bf264cf588f01ccbb3349430fc99330ca25706e69fc906cb65091f67e"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "nGnfvtCVEs@mail.ru",
+    "password": "JXAuGawB1J"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-gwuxe8EpJLud5vvNA38sHhLJrec"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw",
+    "refreshToken": "09f89977b4b03e87c7b76dab6b27a404de61d131ccbf1e6a12e23c7ff44c1b43bfd223c5434642e3",
+    "user": {
+        "email": "ngnfvtcves@mail.ru",
+        "name": "h46OO88l2p"
+    }
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "UpdatedName"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ2OWVkMjgwMDAxYjY1OGMwOSIsImlhdCI6MTc1MjYwNDg4NiwiZXhwIjoxNzUyNjA2MDg2fQ.Ja1xWXNpWSMftRC6H98UIY3PMjjs9EDYKonL5VnRvJw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateAllFieldsWithAuth" classname="UserUpdateTest" time="1.294">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He",
+    "name": "dQGSVuNWhk"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+ETag: W/"16f-a5E96t674uKhMJbGWEF+cRdsLYg"
+
+{
+    "success": true,
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "ed5a974ed4939a81e20434911eedc6432117a02b389ff82cb1ffa49ea7d7d35ce1ec1e6f543ee49f"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gib3ilUxDI@mail.ru",
+    "password": "OkmAJSK0He"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"16f-W5gk82ldfnxOu+TCwv88BO5viKw"
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E",
+    "refreshToken": "7899657a36458614360e6b0095d55b90e144e5d8d41389c38fac08c5e5730f67003ddd8949fcd6c6",
+    "user": {
+        "email": "gib3iluxdi@mail.ru",
+        "name": "dQGSVuNWhk"
+    }
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "newemail1752604888047@mail.ru",
+    "password": "NewPassword123",
+    "name": "NewName"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-fU0mG/YdrEr2kx5ECqOIW1VETlk"
+
+{
+    "success": true,
+    "user": {
+        "email": "newemail1752604888047@mail.ru",
+        "name": "NewName"
+    }
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZhMGQ3OWVkMjgwMDAxYjY1OGMwYyIsImlhdCI6MTc1MjYwNDg4NywiZXhwIjoxNzUyNjA2MDg3fQ.0422BChFH_u4pdrtbAsAlrJtb8L2XE9rabeAA3PCf2E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+HTTP/1.1 202 Accepted
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 15 Jul 2025 18:41:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
